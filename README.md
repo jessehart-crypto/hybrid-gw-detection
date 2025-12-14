@@ -37,8 +37,11 @@ Copy and paste the following commands into your terminal:
 ```bash
 git clone https://github.com/jessehart-crypto/hybrid-gw-detection.git
 cd hybrid-gw-detection
+
+
 pip install -r requirements.txt
-jupyter notebook```
+jupyter notebook
+
 
 Then open and run:
 
