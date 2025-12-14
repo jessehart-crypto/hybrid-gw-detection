@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+pytorch
+gwpy
+pycbc
+scikit-learn
+pandas
