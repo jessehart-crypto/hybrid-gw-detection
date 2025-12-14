@@ -30,7 +30,7 @@ https://colab.research.google.com/github/jessehart-crypto/hybrid-gw-detection/bl
 
 Note: The first run may take several minutes to install dependencies and download LIGO data.
 
-```markdown
+
 ### Option 2: Run Locally
 
 Copy and paste the following commands into your terminal:
@@ -40,7 +40,7 @@ git clone https://github.com/jessehart-crypto/hybrid-gw-detection.git
 cd hybrid-gw-detection
 pip install -r requirements.txt
 jupyter notebook
-
+```markdown
 
 
 
