@@ -1,8 +1,9 @@
 numpy
 scipy
 matplotlib
-pytorch
+torch
 gwpy
 pycbc
 scikit-learn
 pandas
+jupyter
