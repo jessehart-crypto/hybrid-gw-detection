@@ -2,7 +2,7 @@
 (https://colab.research.google.com/github/jessehart-crypto/hybrid-gw-detection/blob/main/hybrid_gw_detection_mf_cnn.ipynb)
 
 
-##Hybrid Gravitational-Wave Detection with Matched Filtering and CNN's
+# Hybrid Gravitational-Wave Detection with Matched Filtering and CNN's
 
 This project implements a hybrid gravitational-wave detection pipeline using real LIGO data. 
 Classical matched filtering is combined with a convolutional neural network (CNN) trained on 
