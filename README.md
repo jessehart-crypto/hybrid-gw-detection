@@ -32,21 +32,16 @@ Note: The first run may take several minutes to install dependencies and downloa
 
 ### Option 2: Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/jessehart-crypto/hybrid-gw-detection.git
-   cd hybrid-gw-detection
-Install dependencies:
+Copy and paste the following commands into your terminal:
 
-2. Install dependencies:
 ```bash
+git clone https://github.com/jessehart-crypto/hybrid-gw-detection.git
+cd hybrid-gw-detection
 pip install -r requirements.txt
+jupyter noteboo
 
-3. Launch Jupyter Notebook:
-```bash
-jupyter notebook
+Then pen and run:
 
-4.  Open and run:
 hybrid_gw_detection_mf_cnn.ipynb
 
 ## Data
