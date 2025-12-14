@@ -39,10 +39,13 @@ Note: The first run may take several minutes to install dependencies and downloa
 Install dependencies:
 
 2. Install dependencies:
-  pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 
-3.  Launch Jupyter Notebook:
-   jupyter notebook
+3. Launch Jupyter Notebook:
+```bash
+jupyter notebook
+
 4.  Open and run:
 hybrid_gw_detection_mf_cnn.ipynb
 
