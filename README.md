@@ -40,7 +40,8 @@ git clone https://github.com/jessehart-crypto/hybrid-gw-detection.git
 cd hybrid-gw-detection
 pip install -r requirements.txt
 jupyter notebook
-```markdown
+```
+
 
 
 
