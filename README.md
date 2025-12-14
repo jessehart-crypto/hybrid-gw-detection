@@ -1,6 +1,3 @@
-# hybrid-gw-detection
-Hybrid matched-filter and CNN pipeline for gravitational-wave detection using real LIGO data.
-
 #Hybrid Gravitational-Wave Detection with Matched Filtering and CNN's
 
 This project implements a hybrid gravitational-wave detection pipeline using real LIGO data. 
