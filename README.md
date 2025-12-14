@@ -38,9 +38,9 @@ Copy and paste the following commands into your terminal:
 git clone https://github.com/jessehart-crypto/hybrid-gw-detection.git
 cd hybrid-gw-detection
 pip install -r requirements.txt
-jupyter noteboo
+jupyter notebook```
 
-Then pen and run:
+Then open and run:
 
 hybrid_gw_detection_mf_cnn.ipynb
 
