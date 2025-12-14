@@ -14,9 +14,14 @@ time-frequency representations of strain data from Hanford and Livingston detect
 ## Data
 Open LIGO data accessed via GWOSC using `gwpy` and `pycbc`.
 
+## Limitations
+This Study is limited to short (32 s) data segments around known events and a small number of confirmed mergers.
+As a result, the estimated false alarm rates are not representative of full observing runs.
+Future work would require training on much longer background data and a broader set of waveform morphologies.
+
 ## Results
 The CNN shows strong agreement with matched filtering in localizing real gravitational-wave
-events and generalizes across multiple binary black hole mergers.
+events and generalizes across multiple binary black hole mergers, despite being trained on a limited dataset.
 
 ## Notes
 This project was completed as a final group project for an undergraduate physics course.
