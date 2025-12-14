@@ -15,13 +15,8 @@ time-frequency representations of strain data from Hanford and Livingston detect
 - Evaluation using ROC, Precision-Recall, and false alarm rates
 - Tested on GW150914, GW151226, and GW170104
 
-## Data
-Open LIGO data accessed via GWOSC using `gwpy` and `pycbc`.
 
-## Limitations
-This Study is limited to short (32 s) data segments around known events and a small number of confirmed mergers.
-As a result, the estimated false alarm rates are not representative of full observing runs.
-Future work would require training on much longer background data and a broader set of waveform morphologies.
+
 
 ## Results
 The CNN shows strong agreement with matched filtering in localizing real gravitational-wave
@@ -51,6 +46,19 @@ Install dependencies:
 4.  Open and run:
 hybrid_gw_detection_mf_cnn.ipynb
 
+## Data
+All gravitational-wave strain data used in this project are publicly avilable through the Gravitational Wave
+Open Science Center (GWOSC) and accessed via the gwpy and pycbc Python packages.
+
+## Results
+The CNN shows strong agreement with matched filtering in localizing real gravitational-wave
+events and generalizes across multiple binary black hole mergers, despite being trained on a limited dataset.
+
+
+## Limitations
+This Study is limited to short (32 s) data segments around known events and a small number of confirmed mergers.
+As a result, the estimated false alarm rates are not representative of full observing runs.
+Future work would require training on much longer background data and a broader set of waveform morphologies.
 
 
 
